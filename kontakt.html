@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Profesionální kadeřnictví Studio Gabra ve Zlíně. Dámské, pánské i dětské střihy, barvení, styling a péče o vlasy.">
+<title>Studio Gabra | Profesionální kadeřnictví</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/lucide@1.17.0" defer></script>
+</head>
+<body>
+
+<header>
+  <nav>
+    <a class="logo" href="index.html">
+      <img src="obrazky/gabra_logo.svg" height="60" alt="Studio Gabra logo">
+    </a>
+
+    <button class="menu-toggle" id="hamburger" onclick="toggleMenu()" aria-label="Otevřít menu" aria-expanded="false">
+      <span class="hamburger-icon"></span>
+    </button>
+
+    <div class="nav-menu" id="menu">
+      <ul class="nav-links">
+        <li><a href="index.html" onclick="toggleMenu()">Úvod</a></li>
+        <li><a href="sluzby.html" onclick="toggleMenu()">Služby</a></li>
+        <li><a href="kontakt.html" class="active" onclick="toggleMenu()">Kontakt</a></li>
+      </ul>
+      <a href="kontakt.html" class="nav-btn" onclick="toggleMenu()" style="visibility: hidden; pointer-events: none;">REZERVACE</a>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <section class="contact-page-section">
+    <div class="contact-page-container">
+      <div class="contact-top-hero-grid">
+        <div class="contact-page-header">
+          <h1 class="section-title">
+            <span class="section-subtitle">KONTAKTNÍ</span>
+            ÚDAJE
+          </h1>
+          <div class="title-line"></div>
+        </div>
+        <address class="contact-page-content">
+          <div class="contact-booking-box">
+            <div class="artsy-header-wrapper">
+              <h2 class="contact-block-title">REZERVACE TERMÍNŮ</h2>
+              <div class="block-title-line-exact"></div>
+            </div>
+            <p class="contact-booking-text">Objednávky služeb přijímáme výhradně telefonicky. Zavolejte nám a domluvíme si termín, který vám bude nejvíce vyhovovat.</p>
+            <a href="tel:+420777813832" class="contact-phone-cta">
+              <i data-lucide="phone"></i> +420&nbsp;777&nbsp;813&nbsp;832
+            </a>
+          </div>
+          <div class="contact-details-grid">
+            <div class="contact-detail-card">
+              <div class="artsy-header-wrapper">
+                <h2 class="contact-block-title">STUDIO GABRA</h2>
+                <div class="block-title-line-exact"></div>
+              </div>
+              <ul class="contact-data-list">
+                <li>
+                  <div class="contact-icon-sphere"><i data-lucide="map-pin"></i></div>
+                  <div>
+                    <strong>Adresa studia</strong>
+                    <p>NC Přerovanka, Křiby&nbsp;4718,<br>760&nbsp;05 Zlín</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="contact-icon-sphere"><i data-lucide="mail"></i></div>
+                  <div>
+                    <strong>E-mail</strong>
+                    <p><a href="mailto:mlynkovi1@seznam.cz">mlynkovi1@seznam.cz</a></p>
+                  </div>
+                </li>
+              </ul>
+            </address>
+
+            <div class="contact-detail-card">
+              <div class="artsy-header-wrapper">
+                <h2 class="contact-block-title">OTEVÍRACÍ DOBA</h2>
+                <div class="block-title-line-exact"></div>
+              </div>
+              <ul class="contact-hours-list">
+                <li>
+                  <span>Pondělí–Pátek</span> 
+                  <strong>
+                    <time datetime="08:00">08:00</time>–<time datetime="18:00">18:00</time>
+                  </strong>
+                </li>
+                <li>
+                  <span>Sobota</span> 
+                  <strong>
+                    <time datetime="08:00">08:00</time>–<time datetime="12:00">12:00</time>
+                  </strong>
+                </li>
+                <li><span>Neděle</span> <strong class="text-red">Zavřeno</strong></li>
+              </ul>
+              <p class="contact-hours-footnote">*&nbsp;Mimo pracovní dobu dle individuální telefonické dohody.</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-social-section-row">
+        
+        <div class="social-feed-block">
+          <div class="artsy-header-wrapper">
+            <a href="https://www.instagram.com/gabranat/" target="_blank" rel="noopener" class="contact-block-link">
+              <h2 class="contact-block-title">
+                <i data-lucide="instagram" class="title-social-icon"></i> INSTAGRAM: @gabranat
+              </h2>
+            </a>
+            <div class="block-title-line-exact"></div>
+          </div>
+          <div class="artsy-social-grid">
+            <a href="https://www.instagram.com/gabranat/" target="_blank" class="social-grid-item">
+              <img src="obrazky/ucesy/vlasy1_1.avif" alt="Studio Gabra Instagram">
+            </a>
+            <a href="https://www.instagram.com/gabranat/" target="_blank" class="social-grid-item hide-on-mobile">
+              <img src="obrazky/ucesy/vlasy3_1.avif" alt="Studio Gabra Instagram">
+            </a>
+          </div>
+        </div>
+
+        <div class="social-feed-block">
+          <div class="artsy-header-wrapper">
+            <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" rel="noopener" class="contact-block-link">
+              <h2 class="contact-block-title">
+                <i data-lucide="facebook" class="title-social-icon"></i> FACEBOOK: KADEŘNICTVÍ GABRA
+              </h2>
+            </a>
+            <div class="block-title-line-exact"></div>
+          </div>
+          <div class="artsy-social-grid">
+            <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" class="social-grid-item">
+              <img src="obrazky/ucesy/vlasy2_1.avif" alt="Studio Gabra Facebook">
+            </a>
+            <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" class="social-grid-item hide-on-mobile">
+              <img src="obrazky/ucesy/vlasy4_1.avif" alt="Studio Gabra Facebook">
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="contact-map-full-row">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4000.000000000000!2d17.664218261147138!3d49.24065521555605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47130b5676517ff3%3A0xbfb44772a282090d!2sP%C5%99erovanka!5e0!3m2!1scs!2scz!4v1779988496070!5m2!1scs!2scz!3m1!4b1"
+                  style="width:100%; border:0;"
+                  width="700" 
+                  height="700"  
+                  allowfullscreen="" 
+                  loading="lazy" 
+                  referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+      </div>
+
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="footer-container">
+    
+    <nav class="footer-socials" aria-label="Odkazy na sociální sítě">
+      <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://www.instagram.com/gabranat/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+    </nav>
+    
+    <small class="copyright">
+      &copy; 2026 Studio Gabra
+    </small>
+
+    <a class="logo" href="index.html">
+      <img src="obrazky/gabra_logo.svg" height="35" loading="lazy" alt="Studio Gabra logo">
+    </a>
+
+  </div>
+</footer>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    lucide.createIcons();
+  });
+
+  const menu = document.getElementById('menu');
+  const hamburger = document.getElementById('hamburger');
+
+  function toggleMenu() {
+    if (window.getComputedStyle(hamburger).display !== 'none') {
+      const isOpen = menu.classList.toggle('active');
+      hamburger.classList.toggle('is-active');
+      hamburger.setAttribute('aria-expanded', isOpen);
+      document.body.style.overflow = isOpen ? 'hidden' : '';
+    }
+  }
+</script>
+</body>
+</html>
