@@ -1226,6 +1226,7 @@ nav {
   background: var(--cream);
   padding: 50px 40px;
   border: 3px solid var(--muted);
+  border-radius: 16px; /* Sjednoceno zaoblení */
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -1270,6 +1271,7 @@ nav {
   background: var(--cream);
   padding: 45px 40px;
   border: 3px solid var(--muted);
+  border-radius: 16px; /* Sjednoceno zaoblení */
 }
 
 .contact-data-list {
@@ -1403,6 +1405,7 @@ nav {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border: 3px solid var(--muted);
+  border-radius: 16px; /* Sjednoceno zaoblení */
   background: #000000;
 }
 
@@ -1422,6 +1425,7 @@ nav {
 .contact-map-full-row {
   width: 100%;
   border: 3px solid var(--muted);
+  border-radius: 16px; /* Sjednoceno zaoblení */
   overflow: hidden;
   height: 700px;
 }
