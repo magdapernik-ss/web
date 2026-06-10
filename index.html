@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="cs">
-<head> 
+<head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="description" content="Profesionální kadeřnictví Studio Gabra ve Zlíně. Dámské, pánské i dětské střihy, barvení, styling a péče o vlasy.">
@@ -8,7 +8,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;600;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Raleway:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style_f.css">
 <link rel="preload" as="image" 
       href="obrazky/hero/hero_l.avif" 
       type="image/avif"
@@ -52,76 +52,127 @@
 
 <main>
   <section class="hero-full">
-  <div class="hero-container">
-    <div class="hero-content">
-      <h1>Krásné vlasy, <br><em>které Vás podtrhnou.</em></h1>
-      <p>Profesionální péče o vlasy s důrazem na kvalitu,<br> preciznost a osobní přístup.</p>
-      
-      <div class="hero-actions">
-        <a href="kontakt.html" class="btn-primary">
-          <i data-lucide="phone" aria-hidden="true" style="width: 18px; height: 18px; margin-right: 8px;"></i>
-          Rezervace termínu
-        </a>
+    <div class="hero-container">
+      <div class="hero-content">
+        <h1>Krásné vlasy, <br><em>které Vás podtrhnou.</em></h1>
+        <p>Profesionální péče o vlasy s důrazem na kvalitu,<br> preciznost a osobní přístup.</p>
+        
+        <div class="hero-actions">
+          <a href="kontakt.html" class="btn-primary">
+            <i data-lucide="phone" aria-hidden="true" style="width: 18px; height: 18px; margin-right: 8px;"></i>
+            Rezervace termínu
+          </a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
+
+  <section class="quick-info-section">
+    <div class="quick-info-container">
+      <div class="info-box">
+        <div class="info-box-icon">
+          <i data-lucide="phone"></i>
+        </div>
+        <div class="info-box-text">
+          <span class="info-box-label">TELEFON</span>
+          <strong class="info-box-value"><a href="tel:+420777813832">777 813 832</a></strong>
+        </div>
+      </div>
+      
+      <div class="info-box">
+        <div class="info-box-icon">
+          <i data-lucide="clock"></i>
+        </div>
+        <div class="info-box-text">
+          <span class="info-box-label">OTEVÍRACÍ DOBA</span>
+          <strong class="info-box-value"><a href="#kontakt">8:00 – 17:00</a></strong>
+        </div>
+      </div>
+      
+      <div class="info-box">
+        <div class="info-box-icon">
+          <i data-lucide="map-pin"></i>
+        </div>
+        <div class="info-box-text">
+          <span class="info-box-label">ADRESA</span>
+          <strong class="info-box-value"><a href="https://maps.google.com/?q=Křiby+478,+Zlín" target="_blank" rel="noopener noreferrer">Křiby 478, Zlín</a></strong>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="services" id="sluzby">
-    <div class="services-header">
-      <h2 class="section-title"><span class="section-subtitle">NAŠE</span> SLUŽBY</h2>
-      <div class="title-line"></div>
+    <div class="services-container">
+      
+      <div class="services-header-block">
+        <span class="section-subtitle">NAŠE</span>
+        <h2 class="section-title">SLUŽBY</h2>
+        <div class="services-title-line"></div>
+      </div>
+      
+      <div class="services-grid-layout">
+        
+        <article class="service-card-ref">
+          <span class="service-card-num">01</span>
+          <div class="service-card-icon-box">
+            <i data-lucide="scissors" aria-hidden="true"></i>
+          </div>
+          <h3>Střihy</h3>
+          <p>Precizní dámské, pánské i dětské střihy, které drží tvar.</p>
+        </article>
+
+        <article class="service-card-ref">
+          <span class="service-card-num">02</span>
+          <div class="service-card-icon-box">
+            <i data-lucide="brush" aria-hidden="true"></i>
+          </div>
+          <h3>Barvení</h3>
+          <p>Od přirozených tónů po moderní techniky jako balayage či ombré.</p>
+        </article>
+
+        <article class="service-card-ref">
+          <span class="service-card-num">03</span>
+          <div class="service-card-icon-box">
+            <i data-lucide="droplet" aria-hidden="true"></i>
+          </div>
+          <h3>Péče</h3>
+          <p>Hloubková regenerace a rituály pro zdravé a poškozené vlasy.</p>
+        </article>
+
+        <article class="service-card-ref">
+          <span class="service-card-num">04</span>
+          <div class="service-card-icon-box">
+            <i data-lucide="spray-can" aria-hidden="true"></i>
+          </div>
+          <h3>Styling</h3>
+          <p>Společenské účesy a foukaná pro vaše výjimečné dny.</p>
+        </article>
+
+      </div>
+      
+      <div class="services-footer-action">
+        <a href="sluzby.html" class="link-pricing-ref">KOMPLETNÍ CENÍK SLUŽEB <span class="arrow">&rarr;</span></a>
+      </div>
+
     </div>
-    
-    <div class="services-grid">
-      <article class="service-card">
-        <span class="service-number">01</span>
-        <div class="icon-wrapper">
-          <i data-lucide="scissors" aria-hidden="true"></i>
-        </div>
-        <h3>Střihy</h3>
-        <p>Precizní dámské, pánské i dětské střihy, které drží tvar.</p>
-      </article>
-
-      <article class="service-card">
-        <span class="service-number">02</span>
-        <div class="icon-wrapper">
-          <i data-lucide="brush" aria-hidden="true"></i>
-        </div>
-        <h3>Barvení</h3>
-        <p>Od přirozených tónů po moderní techniky jako balayage či ombré.</p>
-      </article>
-
-      <article class="service-card">
-        <span class="service-number">03</span>
-        <div class="icon-wrapper">
-          <i data-lucide="droplet" aria-hidden="true"></i>
-        </div>
-        <h3>Péče</h3>
-        <p>Hloubková regenerace a rituály pro unavené a poškozené vlasy.</p>
-      </article>
-
-      <article class="service-card">
-        <span class="service-number">04</span>
-        <div class="icon-wrapper">
-          <i data-lucide="spray-can" aria-hidden="true"></i>
-        </div>
-        <h3>Styling</h3>
-        <p>Společenské účesy a foukaná pro vaše výjimečné dny.</p>
-      </article>
-    </div>
-    
-    <a href="sluzby.html" class="link-pricing">KOMPLETNÍ CENÍK SLUŽEB <span class="arrow">&rarr;</span></a>
   </section>
 
   <section class="gallery" id="galerie">
     <div class="gallery-container">
       
       <div class="gallery-info-block">
-        <h2 class="section-title"><span class="section-subtitle">GALERIE</span> UKÁZKY<br>MÉ PRÁCE</h2>
-        <div class="title-line"></div>
-        <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" class="link-instagram-new" target="_blank" rel="noopener noreferrer">FACEBOOK <span class="arrow">&rarr;</span></a>
-        <a href="https://www.instagram.com/gabranat/" class="link-instagram-new" target="_blank" rel="noopener noreferrer">INSTAGRAM <span class="arrow">&rarr;</span></a>
+        <span class="section-subtitle">GALERIE</span>
+        <h2 class="section-title">UKÁZKY<br>MÉ PRÁCE</h2>
+        <div class="gallery-title-line"></div>
+        
+        <div class="gallery-social-links">
+          <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" class="link-instagram-new" target="_blank" rel="noopener noreferrer">
+            FACEBOOK <span class="social-arrow">&rarr;</span>
+          </a>
+          <a href="https://www.instagram.com/gabranat/" class="link-instagram-new" target="_blank" rel="noopener noreferrer">
+            INSTAGRAM <span class="social-arrow">&rarr;</span>
+          </a>
+        </div>
       </div>
 
       <div class="gallery-grid">
@@ -143,26 +194,24 @@
   </section>
 
   <section class="contact-section" id="kontakt">
-    <div class="contact-container">
+    <div class="contact-panel-card">
       
       <div class="contact-map-block">
         <img src="obrazky/mapa.avif" width="600" height="450" loading="lazy" alt="Mapa s umístěním Studio Gabra">
-        
         <div class="custom-pin-shadow"></div>
         <div class="custom-pin"></div>
       </div>
 
       <div class="contact-info-block">
         <span class="section-subtitle">KONTAKT</span>
-        <h2 class="section-title">KDE NÁS<br>NAJDETE<span style="color: var(--red);">?</span></h2>
-        <div class="title-line"></div>
+        <h2 class="section-title">KDE NÁS<br>NAJDETE<span class="question-mark">?</span></h2>
         
         <p class="contact-desc">Náš salón najdete na sídlišti Jižní Svahy v prostorech NC Přerovanka.</p>
         
         <ul class="contact-details">
           <li>
             <div class="contact-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <i data-lucide="phone"></i>
             </div>
             <div class="contact-text">
               <a href="tel:+420777813832" class="contact-link">+420 777 813 832</a>
@@ -170,28 +219,22 @@
           </li>
           <li>
             <div class="contact-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <i data-lucide="map-pin"></i>
             </div>
             <div class="contact-text">
-              <a href="https://mapy.com/cs/turisticka?vlastni-body&ut=Nov%C3%BD%20bod&uc=9oMtgx8FqU&ud=K%C5%99iby%204718%2C%20Zl%C3%ADn%2C%20760%2005%2C%20Zl%C3%ADn&x=17.6652968&y=49.2402241&z=19" target="_blank" rel="noopener noreferrer" class="contact-link">
-                <strong>Křiby 4718</strong><br>
-              </a>
-              <span>760 05, Zlín</span>
+              <strong>Křiby 478</strong><br>
+              <span>760 05 Zlín</span>
             </div>
           </li>
           <li>
             <div class="contact-icon">
-              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+              <i data-lucide="clock"></i>
             </div>
             <div class="contact-text">
               <strong>Otevírací doba:</strong><br>
               <span>
-                Po – Pá:
-                <time datetime="08:00">08:00</time> –
-                <time datetime="18:00">18:00</time><br>
-                So:
-                <time datetime="08:00">08:00</time> –
-                <time datetime="12:00">12:00</time>
+                Po – Pá: <time datetime="08:00">8:00</time> – <time datetime="18:00">18:00</time><br>
+                So: <time datetime="08:00">8:00</time> – <time datetime="12:00">12:00</time>
               </span>
             </div>
           </li>
@@ -205,23 +248,56 @@
 <footer>
   <div class="footer-container">
     
-    <nav class="footer-socials" aria-label="Odkazy na sociální sítě">
-      <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" rel="noopener noreferrer" aria-label="Facebook" class="social-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+    <div class="footer-col footer-brand-col">
+      <a class="footer-logo" href="index.html">
+        Studio <span class="logo-accent">Gabra</span>
       </a>
-      <a href="https://www.instagram.com/gabranat/" target="_blank" rel="noopener noreferrer" aria-label="Instagram" class="social-icon">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
-      </a>
-    </nav>
-    
-    <small class="copyright">
-      &copy; 2026 Studio Gabra
-    </small>
+      <p class="footer-brand-desc">
+        Vaše vlasy, naše vášeň. Kadeřnické studio ve Zlíně s léty zkušeností a srdcem pro řemeslo.
+      </p>
+      <div class="footer-socials">
+        <a href="https://www.facebook.com/p/Kade%C5%99nictv%C3%AD-Gabra-100046135256356/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+        </a>
+        <a href="https://www.instagram.com/gabranat/" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+        </a>
+      </div>
+    </div>
 
-    <a class="logo" href="index.html">
-      <img src="obrazky/gabra_logo.svg" height="35" loading="lazy" alt="Studio Gabra logo">
-    </a>
+    <div class="footer-col">
+      <h4 class="footer-title">Navigace</h4>
+      <ul class="footer-links">
+        <li><a href="index.html">Úvod</a></li>
+        <li><a href="sluzby.html">Služby</a></li>
+        <li><a href="kontakt.html">Kontakt</a></li>
+      </ul>
+    </div>
 
+    <div class="footer-col">
+      <h4 class="footer-title">Kontakt</h4>
+      <div class="footer-contact-grid">
+        <div class="footer-contact-block">
+          <h5>Adresa</h5>
+          <p><a href="https://mapy.com/cs/turisticka?vlastni-body&ut=Nov%C3%BD%20bod&uc=9oMtgx8FqU&ud=K%C5%99iby%204718%2C%20Zl%C3%ADn%2C%20760%2005%2C%20Zl%C3%ADn&x=17.6652968&y=49.2402241&z=19" target="_blank" rel="noopener noreferrer">Křiby 4718, 760 05 Zlín</a></p>
+        </div>
+        <div class="footer-contact-block">
+          <h5>Telefon</h5>
+          <p><a href="tel:+420777813832">+420 777 813 832</a></p>
+        </div>
+        <div class="footer-contact-block">
+          <h5>Otevírací doba</h5>
+          <p>Po–Pá: 08:00–18:00<br>So: 08:00–12:00</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    <div class="footer-bottom-container">
+      <p>&copy; 2026 Studio Gabra. Všechna práva vyhrazena.</p>
+    </div>
   </div>
 </footer>
 
@@ -230,7 +306,6 @@
     lucide.createIcons();
   });
 
-  // Hamburger Menu
   const menu = document.getElementById('menu');
   const hamburger = document.getElementById('hamburger');
 
